@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <div class="main-content">
+            <div class="header">
+                <img src="https://i.imgur.com/zqpwkLQ.png" />
+            </div>
+            <div class="l-part">
+                <input id="username" type="text" placeholder="Username" class="input-1" />
+                <div class="overlap-text">
+                    <input id="password" type="password" placeholder="Password" class="input-2" />
+                </div>
+                <button class="btn" onclick="send();">Log in</button>
+                <br>
+                <p id="msg" style="color: red;text-align: center;"></p>
+                <!-- <img src="or.JPG" alt="OR">
+                <br>
+                <br> -->
+            </div>
+        </div>
+        <div class="sub-content">
+            <div class="s-part">
+                Don't have an account? <a href="#">Sign up</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
